@@ -60,27 +60,13 @@ Other limitations:
 
 Think of this as an exploratory study that raises questions, not a definitive proof of anything. It's meant to show a methodology that *could* be expanded, not to make sweeping claims.
 
-## Repository Structure
+## What's in Here
 
-```text
-AI-News-Summarization-Bias-Study/
-|-- README.md
-|-- paper/
-|   |-- research-paper.pdf
-|   `-- research-paper-source.docx
-|-- data/
-|   `-- research-dataset.xlsx
-|-- docs/
-|   `-- project-summary.md
-|-- Assets/
-|   `-- ChartsAndAnalysis/
-|       |-- AIByArticle.png
-|       |-- AIByArticle2.png
-|       |-- AIByArticle3.png
-|       |-- OverallDashboard.png
-|       `-- Sources.png
-`-- LICENSE
-```
+- `paper/` — the full research paper (PDF and Word doc)
+- `data/` — the Excel workbook with all thirty summaries and coding scores
+- `docs/` — project overview
+- `Assets/` — charts and graphs from the analysis
+- `LICENSE` — the usual legal stuff
 
 ## Charts and Analysis Visualizations
 
