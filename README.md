@@ -88,8 +88,25 @@ AI-News-Summarization-Bias-Study/
 |   `-- research-dataset.xlsx
 |-- docs/
 |   `-- project-summary.md
+|-- Assets/
+|   `-- ChartsAndAnalysis/
+|       |-- AIByArticle.png
+|       |-- AIByArticle2.png
+|       |-- AIByArticle3.png
+|       |-- OverallDashboard.png
+|       `-- Sources.png
 `-- LICENSE
 ```
+
+## Charts and Analysis Visualizations
+
+The following charts and analysis visualizations are available in the `/Assets/ChartsAndAnalysis` folder:
+
+- [Overall Dashboard](./Assets/ChartsAndAnalysis/OverallDashboard.png) - Comprehensive overview of model performance
+- [AI Performance by Article](./Assets/ChartsAndAnalysis/AIByArticle.png) - Model comparison across articles
+- [AI Performance by Article (Alternative View)](./Assets/ChartsAndAnalysis/AIByArticle2.png) - Additional article-level analysis
+- [AI Performance by Article (Extended)](./Assets/ChartsAndAnalysis/AIByArticle3.png) - Further article-level insights
+- [Sources Analysis](./Assets/ChartsAndAnalysis/Sources.png) - Analysis by article source orientation
 
 ## Paper
 
