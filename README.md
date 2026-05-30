@@ -86,9 +86,6 @@ AI-News-Summarization-Bias-Study/
 |   `-- research-paper-source.docx
 |-- data/
 |   `-- research-dataset.xlsx
-|-- assets/
-|   `-- figures-and-charts/
-|       `-- README.md
 |-- docs/
 |   `-- project-summary.md
 `-- LICENSE
