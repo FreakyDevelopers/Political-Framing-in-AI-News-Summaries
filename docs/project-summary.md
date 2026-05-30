@@ -1,56 +1,34 @@
-# Project Summary
+# What's This Project About?
 
-## Background
+## The Problem
 
-AI-generated summaries are becoming a common way for people to encounter news. While summaries can make information easier to read, summarization is not fully neutral. A summary decides which facts to include, which details to leave out, and how the tone of the original article is carried forward.
+So AI summaries are everywhere now. You see them in news apps, chat interfaces, all over. But here's the thing—summarizing isn't neutral. Every time you summarize, you're choosing what to include, what to drop, and what tone to use. Those choices matter.
 
-This project examines that issue through a small set of politically sensitive news articles and publicly accessible AI tools.
+I wanted to actually test whether different AI models make the same choices or if they diverge.
 
-## Research Objective
+## What I Did
 
-The objective of this study was to compare how five AI models summarize the same news articles when given the same neutral prompt.
+I picked six immigration news articles: left-leaning, center, and right-leaning sources. Then I fed them all to five different AI models—ChatGPT, Claude, Gemini, Grok, DeepSeek—with the same neutral prompt asking for 140-160 word summaries.
 
-The study focused on whether the models differed in:
+I manually coded all thirty summaries (6 articles × 5 models) looking at: neutrality, emotional language, political framing, accuracy, and whether anything important got left out.
 
-- Neutrality
-- Emotional language
-- Political framing
-- Accuracy
-- Completeness
+## What I Found
 
-## Methodology
+All five models could produce readable summaries, but they didn't perform the same:
 
-The study used six immigration-related news articles from left, center, and right source categories. Five AI models were tested: ChatGPT, Claude, Gemini, Grok, and DeepSeek.
+- **Claude** ranked highest overall quality-wise. Consistently solid.
+- **Grok** was best at including details. Good for completeness.
+- **ChatGPT** made smooth reading but cut corners on important stuff sometimes.
+- **Gemini and DeepSeek** were all over the place—depended heavily on the article.
 
-Each model received the same neutral summarization instruction. The prompt asked the model to produce a 140 to 160 word summary, remain neutral and objective, avoid unsupported information, avoid omitting major facts, and use professional journalistic language.
+There's also a pattern with source orientation: when the original article came from a left-leaning source, the AI summaries tended to get coded as more negative. Right-leaning sources? The summaries leaned positive. Center-source articles? Cleanest results.
 
-Thirty summaries were collected and manually coded using a rubric. The workbook includes article metadata, model summaries, coding scores, analyst notes, and dashboard results.
+The big insight: these summaries *sound* neutral but they're not. They inherit framing from the source material and shape reader understanding through emphasis and omission.
 
-## Findings
+## Real Talk: What This Doesn't Prove
 
-The study found that all five models could produce readable summaries, but their performance differed.
+This is exploratory. One coder, six articles, one topic. You can't generalize this to "all AI systems" or even "all news topics." 
 
-Claude had the highest average quality score in this dataset. Grok was especially strong on completeness. ChatGPT often produced balanced prose but sometimes omitted important details. Gemini and DeepSeek showed more variation depending on the source framing.
+It's more of a "here's a methodology and some interesting patterns" than a "AI is definitely biased about immigration." Future work would need more articles, multiple coders, more topics, and better statistical rigor.
 
-The results also suggest that source orientation matters. Center-source articles produced the cleanest cross-model results, while left-source and right-source articles tended to produce framing scores in different directions.
-
-Overall, the project suggests that AI summaries can sound neutral while still shaping reader understanding through emphasis, omission, tone, and inherited source framing.
-
-## Limitations
-
-This project is a pilot study with a limited dataset. It includes six articles, thirty summaries, one topic area, and one manual coder.
-
-The results should not be treated as a general conclusion about all AI systems or all political topics. They should be read as an exploratory snapshot of how public-facing AI models summarized the selected articles during the collection period.
-
-## Future Work
-
-Future research could expand the study by including:
-
-- More articles
-- More topic areas
-- More AI models
-- Repeated outputs from each model
-- Multiple human coders
-- Inter-coder reliability checks
-- Additional automated text-analysis methods
-- Comparisons across future model versions
+But it does suggest something worth digging into further.
